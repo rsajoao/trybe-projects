@@ -7,7 +7,7 @@ O bloco aborda os temas: Unix & Bash; Git & GitHub; Introdução à HTML & CSS; 
 Projetos:
 
 1. [Lessons Learned](https://github.com/rsajoao/trybe-projects/tree/22B_01.0_Lessons-Learned);
-2. Playground Functions;
-3. Arte Com Pixels;
-4. TrybeWarts;
-5. Zoofunctions;
+2. [Playground Functions](https://github.com/rsajoao/trybe-projects/tree/22B_02.0_Playground-Functions);
+3. [Arte Com Pixels](https://github.com/rsajoao/trybe-projects/tree/22B_03.0_Pixels-Art);
+4. [TrybeWarts](https://github.com/rsajoao/trybe-projects/tree/22B_4.0_Trybewarts);
+5. [Zoofunctions](https://github.com/rsajoao/trybe-projects/tree/22B_5.0_JavaScript-Unit-Tests);
