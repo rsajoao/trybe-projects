@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+}
+
+.container {
+  display: grid;
+  grid-gap: 20px;
+  grid-template: 'header header' 75px
+    'main aside' calc(100vh - 190px)
+    'footer footer' 75px / 2fr 1fr;
+}
+
+header {
+  align-items: center;
+  background-color: crimson;
+  color: white;
+  display: flex;
+  grid-area: header;
+  height: 75px;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+main {
+  font-size: 1rem;
+  grid-area: main;
+  margin-left: 20px;
+  overflow-y: scroll;
+  padding: 20px;
+}
+
+aside {
+  grid-area: aside;
+  margin-right: 20px;
+  padding: 20px;
+}
+
+footer {
+  align-items: center;
+  background-color: crimson;
+  display: flex;
+  grid-area: footer;
+  justify-content: center;
+}
+
+hr {
+  margin: 20px 0;
+}
+
+#sobre_mim {
+  align-items: center;
+  display: flex;
+  column-gap: 20px;
+}
+
+#sobre_mim p {
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+img {
+  border-radius: 100%;
+  width: 150px;
+}
+
+ol , ul {
+  list-style: none;
+  line-height: 25px;
+}
+
+#licoes {
+  display: flex;
+  column-gap: 40px;
+  margin-bottom: 20px;
+}
+
+#licoes ol , #licoes ul {
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+}
+
+#article_text , #aside_text {
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.icones {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2rem;
+  width: 50%;
+  min-width: 250px;
+}
+
+a , a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a span {
+  display: none;
+}
+
+table {
+  font-size: 1rem;
+  margin: 20px 0;
+  width: 100%;
+}
+
+thead th {
+  width: 50%;
+}
+
+thead {
+  background-color: crimson;
+  color: white;
+}
