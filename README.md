@@ -1,4 +1,4 @@
-# Bem vindos ao meu repositório de Projetos da Trybe.
+# Boas vindas ao meu repositório de Projetos da Trybe.
 
 Criei este repositório para, aos poucos, colocar os projetos aprovados pela Trybe, curso no qual iniciei em 21 de março de 2022 na turma 22 - Tribo B. 
 
